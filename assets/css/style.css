@@ -1,0 +1,42 @@
+body {
+    padding-top: 3.75rem;
+}
+
+.hero-container {
+    margin-top: 1.25rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    max-height: 12.5rem;
+    object-fit: cover;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.hero-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 1.25rem;
+}
+
+.hero-card .card-body {
+    flex: 1;
+    padding: 1.5rem;
+}
+
+.hero-card .card-img-top {
+    flex: 0 0 12.5rem;
+}
+
+.hero-title {
+    padding-left: 12.5rem;
+}
